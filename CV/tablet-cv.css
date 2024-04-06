@@ -1,0 +1,31 @@
+@media (max-width: 768px) {
+  .main {
+    display: flex;
+  }
+  .direction {
+    flex-direction: column;
+  }
+  i {
+    text-align: center;
+    font-size: large;
+  }
+  .number {
+    align-self: flex-start;
+  }
+}
+
+@media (max-width: 992px) {
+  .main {
+    display: flex;
+  }
+  .direction {
+    flex-direction: column;
+  }
+  i {
+    text-align: center;
+    font-size: large;
+  }
+  .number {
+    align-self: flex-start;
+  }
+}

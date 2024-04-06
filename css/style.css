@@ -1,0 +1,341 @@
+.bg-grey {
+  background: #f7f7f7;
+}
+
+section > .container {
+  margin: 0;
+  display: inline-block;
+}
+
+#nav-bar {
+  text-align: center;
+  position: relative;
+}
+#nav-bar div {
+  padding-top: 40px;
+}
+
+* {
+  margin: 0px;
+}
+
+.banner {
+  position: relative;
+  line-height: 0;
+  height: 350px;
+}
+
+ul {
+  padding-left: 25px;
+  margin-left: 0px;
+}
+
+li:first-child {
+  list-style-type: none;
+}
+
+#banner {
+  line-height: 0;
+}
+
+.container-main {
+  margin: 50px;
+}
+
+.content {
+  position: absolute;
+  top: 25%;
+  left: 40%;
+  text-align: center;
+  line-height: normal;
+  color: white;
+}
+
+.container-1 {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  justify-content: center;
+  align-content: center;
+}
+
+.container-1 > div {
+  padding: 10px 15px 10px;
+  border-left: 1px gray solid;
+}
+.container-2 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.img1 {
+  width: 12%;
+  position: absolute;
+  top: 55%;
+  left: 44%;
+  border: 5px solid white;
+  border-radius: 47%;
+}
+.container-2 > div {
+  padding-left: 20px;
+}
+
+.container-3 {
+  display: grid;
+  grid-template-columns: 25% 25% 25%;
+  gap: 20px;
+  justify-content: center;
+  height: auto;
+}
+.container-3 .div1 {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-4 {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.container-5 {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  padding: 50px;
+  column-gap: 20px;
+}
+
+.container-6 {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  justify-content: center;
+}
+.container-6 i {
+  padding-left: 50px;
+  font-size: 18px;
+}
+
+a {
+  justify-self: left;
+  align-self: center;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+a:hover,
+a:active {
+  font-style: italic;
+  background-color: aqua;
+}
+
+i {
+  color: blue;
+  font-size: 25px;
+}
+
+.mt-40 {
+  list-style-type: none;
+  padding: 0;
+}
+
+.point-1 {
+  background-color: blue;
+  display: inline-block;
+  height: 3px;
+  margin-right: 10px;
+  width: 45px;
+}
+
+.point-2 {
+  background-color: gray;
+  display: inline-block;
+  height: 3px;
+  margin-right: 10px;
+  width: 45px;
+}
+
+.div1 {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  border: solid 1px grey;
+  padding: 10px;
+}
+
+.div1 ul {
+  grid-column: 1/3;
+}
+
+.div1 span {
+  background-color: blue;
+  color: white;
+  border-radius: 20%;
+  padding: 3px;
+}
+
+.div2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border: solid 1px grey;
+  padding: 10px;
+}
+
+.div2 > h3 {
+  grid-column: 1/4;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.div4 {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  border: solid 1px grey;
+  padding: 10px;
+}
+.div4 > h3 {
+  justify-self: start;
+  padding-bottom: 10px;
+}
+
+.ul-4 {
+  grid-column: 1/3;
+  padding: 0;
+}
+.ul-4 > li {
+  list-style-type: none;
+}
+
+.div5 {
+  border: solid gray 1px;
+}
+
+.container-4 > div {
+  display: flex;
+  padding: 20px;
+}
+
+.div-6 {
+  border-bottom: solid black 1px;
+}
+.div-7 {
+  display: flex;
+  border: solid 2px gray;
+  border-bottom: 0;
+}
+
+.div-7 i {
+  margin-left: 20px;
+}
+.div-7 span {
+  background-color: blue;
+  color: aliceblue;
+  margin-left: 10px;
+}
+
+.div-7 p {
+  padding-top: 6px;
+  font-size: 18px;
+}
+
+tr {
+  border-bottom: 2px solid gray;
+}
+th {
+  vertical-align: top;
+  text-align: left;
+  width: 100px;
+}
+
+table {
+  border-collapse: collapse;
+  border-bottom: 2px solid gray;
+}
+
+.img {
+  border-left: 1px solid black;
+}
+.ic-telescope {
+  border-radius: 50%;
+  justify-self: center;
+  align-self: flex-start;
+}
+.ic-basket,
+.ic-megaphone,
+.ic-strategy,
+.ic-hotairballoon {
+  justify-self: center;
+  align-self: center;
+  border-radius: 50%;
+  border: solid 2px blue;
+  padding: 6px;
+  margin: 5px;
+}
+
+#project > h2 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+}
+
+.hidden1 {
+  display: none;
+}
+
+button {
+  background-color: blue;
+  color: #f7f7f7;
+}
+label {
+  color: blue;
+}
+
+#personal-info {
+  position: relative;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 610px;
+  right: 450px;
+}
+
+.error {
+  color: red;
+}
+
+#knowledge {
+  position: relative;
+}
+
+#job-info {
+  position: relative;
+}
+
+.direct {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.hobby {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hobby div {
+  display: flex;
+  flex-direction: column;
+}
+
+.hidden {
+  display: none;
+}
+
+#footer {
+  justify-content: center;
+}

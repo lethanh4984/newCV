@@ -1,0 +1,15 @@
+@media (max-width: 500px) {
+  .main {
+    display: flex;
+  }
+  i {
+    text-align: center;
+    font-size: large;
+  }
+  .direction {
+    flex-direction: column;
+  }
+  .number {
+    align-self: flex-start;
+  }
+}

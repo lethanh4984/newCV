@@ -1,0 +1,73 @@
+@media (max-width: 600px) {
+  #project h2 {
+    margin-top: 30px;
+    padding: 0;
+  }
+  .container-main {
+    margin: 20px;
+  }
+  .banner {
+    height: auto;
+  }
+  #job-info {
+    margin-top: 30px;
+  }
+  .container-2 {
+    gap: 0;
+  }
+  .container-1 {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  .container-1 div {
+    border-left: none;
+  }
+  .content {
+    top: 10%;
+    left: 30%;
+  }
+
+  .container-5 {
+    display: block;
+    padding: 0;
+  }
+  .container-6 {
+    padding: 0;
+    justify-content: center;
+  }
+
+  .div-7 div {
+    display: flex;
+    flex-direction: column;
+  }
+  .div-7 p {
+    font-size: 15px;
+  }
+  .div7 {
+    flex-direction: column;
+  }
+  .div7 span {
+    margin-right: 297px;
+  }
+  .prj1 {
+    padding-bottom: 35px;
+  }
+  .prj1 h4 {
+    text-align: center;
+  }
+  h2 {
+    text-align: center;
+  }
+  .container-6 i {
+    padding-left: 20px;
+  }
+  .form {
+    top: 608px;
+    left: 120px;
+    width: 50%;
+  }
+  #certificate {
+    margin-top: 30px;
+  }
+}
